@@ -41,7 +41,7 @@ for new in news:
                                 engine.setProperty('volume', 1)
                                 print("Resumed")
                                 break
-                            elif key == b'\x1b': # this will check if Esc key is pressed
+                            elif key == b'\x1b': # aqui vai verificar de a tecla esc foi precionado
                                 engine.stop()
                                 break
                 else:
